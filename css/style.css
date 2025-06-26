@@ -8522,11 +8522,9 @@ h1, h2, h3, h4, h5,
             @media (max-width: 752px) {
               .mtop-5{
                 margin-top: 50px;
+                display: none;
               }
-              .mtop-5 video{
-                width: 100%;
-                object-fit: cover;
-              }
+              
         }
             @media (min-width: 992px) {
               .owl-carousel.home-slider .slider-item .slider-text .one-forth .text {
